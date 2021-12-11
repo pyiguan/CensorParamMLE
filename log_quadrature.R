@@ -132,7 +132,7 @@ estimates_list$diffest <- abs(estimates_list$coeff.est - estimates_list$coeff.es
 estimates_list$diffse <- estimates_list$coeff.se - estimates_list$coeff.se.1
 
 
-write_csv(estimates_list, file = "C:/Users/Peter/Documents/PhD/Research/quad_estimates.csv")
+write_csv(estimates_list, file = "")
 
 
 
